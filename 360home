@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>360 Vision Lab</title>
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; color: #333; }
+    header {
+      background: #222; color: #fff;
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 1rem 2rem; position: fixed; width: 100%; top: 0; z-index: 10;
+    }
+    header h1 { margin: 0; font-size: 1.5rem; }
+    nav a {
+      color: #fff; margin-left: 1rem; text-decoration: none; font-weight: bold;
+    }
+    nav a:hover { text-decoration: underline; }
+
+    .hero {
+      height: 100vh;
+      background: url("assets/hero-bg.jpg") center/cover no-repeat;
+      display: flex; flex-direction: column; justify-content: center; align-items: center;
+      text-align: center; color: #fff; padding: 0 1rem;
+    }
+    .hero h2 { font-size: 2.5rem; margin-bottom: 1rem; }
+    .hero p { font-size: 1.2rem; margin-bottom: 2rem; }
+    .hero a {
+      background: #ff6600; color: #fff; padding: 0.8rem 1.5rem;
+      border-radius: 5px; text-decoration: none; font-weight: bold;
+    }
+    .hero a:hover { background: #e65c00; }
+
+    .about {
+      max-width: 900px; margin: 3rem auto; padding: 0 1rem; text-align: center;
+    }
+    .about h3 { font-size: 2rem; margin-bottom: 1rem; }
+    .about p { line-height: 1.6; }
+
+    footer {
+      background: #222; color: #ccc; text-align: center;
+      padding: 1rem; margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>360 Vision Lab</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="viewer.html">View</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Civil Engineering Laboratory 360°</h2>
+    <p>Explore our immersive virtual lab experience</p>
+    <a href="viewer.html">Let’s Tour</a>
+  </section>
+
+  <section class="about">
+    <h3>About the Project</h3>
+    <p>
+      This project showcases a 360° virtual tour of our laboratory facilities.
+      It was developed to support students and researchers by providing
+      interactive access to our learning environment anytime, anywhere.
+    </p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 360 Vision Lab. Designed by Our Team.</p>
+  </footer>
+
+</body>
+</html>
